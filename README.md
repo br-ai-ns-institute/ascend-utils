@@ -14,7 +14,7 @@ Ascend utilities on the Huawei server. It should be extendible to other users as
 ### Usage
 
 #### Setting docker container
-You should use the variable `CONTAINER` to set it to the desired docker container.
+You should use the `Makefile` variable [`CONTAINER`](https://github.com/br-ai-ns-institute/ascend-utils/blob/main/Makefile#L17) to set it to the desired docker container.
 Use the standard docker commands to see which containers are available. You can download
 your own image from [Ascendhub](https://ascendhub.huawei.com/#/index), and create your own container, for usage with this scropt.
 
