@@ -16,7 +16,7 @@ LOGS = "/root/ascend/log/plog/"
 # Use the `CONTAINER` variable to set the container you want to use
 CONTAINER = tensorflow_container
 
-DOCKER_EXEC = sudo docker exec -it $(CONTAINER)
+DOCKER_EXEC = sudo docker exec -w $(PWD) -it $(CONTAINER)
 LOG_CMD = "ls -1tr $(LOGS) | tail -n 1 | xargs -I {} cat $(LOGS){}"
 
 help:
@@ -43,13 +43,7 @@ log:
 	@$(DOCKER_EXEC) bash -c $(LOG_CMD)
 
 run:
-	@$(DOCKER_EXEC) bash $(PWD)/$(file)
-
-bs:
-	@$(DOCKER_EXEC) bash
-
-py-run:
-	@$(DOCKER_EXEC) python3 $(PWD)/$(file)
+	@$(DOCKER_EXEC) bash $(file)
 
 python:
-	@$(DOCKER_EXEC) python3
+	@$(DOCKER_EXEC) python3 $(file)
