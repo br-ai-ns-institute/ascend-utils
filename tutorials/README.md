@@ -45,4 +45,14 @@ Instructions for updating:
 Call initializer instance with the dtype argument instead of passing it to the constructor
 ```
 
-After a while, it should output the training accuracy around 0.97. This means that the training was successful. The model is stored in the local directory that you provided (instructions in the code).
+After a while, it should output the training accuracy around 0.97. This means that the training was successful. The model is stored in the local directory that you provided (instructions in the code). The output should end with something like this:
+
+```
+2021-10-11 17:06:59.502913: W tf_adapter/util/infershape_util.cc:313] The InferenceContext of node _SOURCE is null.
+2021-10-11 17:06:59.502957: W tf_adapter/util/infershape_util.cc:313] The InferenceContext of node _SINK is null.
+2021-10-11 17:06:59.503368: W tf_adapter/util/infershape_util.cc:313] The InferenceContext of node group_deps is null.
+2021-10-11 17:07:22.533637: W tf_adapter/util/infershape_util.cc:313] The InferenceContext of node _SOURCE is null.
+2021-10-11 17:07:22.533711: W tf_adapter/util/infershape_util.cc:313] The InferenceContext of node _SINK is null.
+============== TESTING ACCURACY =======================================
+Testing Accuracy: 0.9759296774864197
+```
