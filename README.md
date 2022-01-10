@@ -25,7 +25,7 @@ Then, from the same root directory, you can use the commands such as:
 ```
 make npu
 ```
-which will output the reslt of a `npu-smi info` [command](https://support.huawei.com/enterprise/en/doc/EDOC1100133280/52956c41/npu-smi-commands), like so:
+which will output the result of a `npu-smi info` [command](https://support.huawei.com/enterprise/en/doc/EDOC1100133280/52956c41/npu-smi-commands), like so:
 ```
 +------------------------------------------------------------------------------------+
 | npu-smi 21.0.2                   Version: 21.0.2                                   |
