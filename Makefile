@@ -13,7 +13,7 @@ MAKE   = make
 PYTHON = python3
 LOGS = "/root/ascend/log/plog/"
 
-# Use the `CONTAINER` variable to set the container you want to use
+# Use `CONTAINER` variable to set the container you want to use
 CONTAINER = tensorflow_container
 
 DOCKER_EXEC = docker exec -w $(PWD) -it $(CONTAINER)
