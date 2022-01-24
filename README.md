@@ -5,11 +5,11 @@ This repo represents the collection of useful tools for working with the Huawei 
 Atlas 800 (3010). It is meant to be populated by the researchers of the br.ai.ns
 institute, but also by other users of the same server (installed locally in Novi Sad).
 
-## Makefile
-Currently the only content of this utils directory is a single [Makefile](https://opensource.com/article/18/8/what-how-makefile).
-This particular makefile is a utility that is meant to facilitate the usage of the
-Ascend utilities on the Huawei server. It should be extendible to other users as well
-(to all those who are exploring the world of machine learning with Huawei).
+## Table of contents
+### Intro
+### Setting up and using the Docker container
+### [Using the Makefile](using_the_makefile.md)
+### [Tutorials](tutorials/README.md)
 
 ### Usage
 
