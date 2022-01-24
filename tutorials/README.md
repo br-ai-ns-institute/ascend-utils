@@ -9,3 +9,4 @@ be set (and that can be set).
 ### [Tensorflow Quickstart using NPUEstimator](tf_qs_npu_estimator.md)
 ### [Tensorflow Quickstart using native Keras]()
 ### [Connecting to the HUAWEI Ascend 910 Administrative Console](HUAWEI_Ascend_910-NPU_Administrative_Console.md)
+### [Tutorial for the use of HUAWEI Ascend 910 NPU](Tutorial-HUAWEI-Ascend-910-NPU.md)
