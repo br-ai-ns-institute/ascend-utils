@@ -2,7 +2,7 @@
 
 PREREQUISITES:
 
-  * [Completed SSH remote tutorial](https://github.com/kalusev/ssh-remote-tutorial)
+  * [Completed SSH remote tutorial](Connecting_to_the_server_using_VS_code.md)
 
 First step is to clone the **ascend-utils** repositorium from GitHub. You should open a New Terminal and then run the command
 
