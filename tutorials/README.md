@@ -5,6 +5,6 @@ devices properly, which is often not clear, and there are a lot of parameters th
 be set (and that can be set).
 
 ## List of tutorials
-### [Connecting to the server using VS Code]()
+### [Connecting to the server using VS Code](Connecting_to_the_server_using_VS_code.md)
 ### [Tensorflow Quickstart using NPUEstimator](tf_qs_npu_estimator.md)
 ### [Tensorflow Quickstart using native Keras]()
