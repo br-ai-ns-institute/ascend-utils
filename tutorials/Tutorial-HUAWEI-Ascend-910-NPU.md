@@ -1,4 +1,4 @@
-# tutorial-HUAWEI-Ascend-910-NPU
+# Tutorial-HUAWEI-Ascend-910-NPU
 
 PREREQUISITES:
 
