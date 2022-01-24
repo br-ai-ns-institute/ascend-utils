@@ -8,3 +8,4 @@ be set (and that can be set).
 ### [Connecting to the server using VS Code](Connecting_to_the_server_using_VS_code.md)
 ### [Tensorflow Quickstart using NPUEstimator](tf_qs_npu_estimator.md)
 ### [Tensorflow Quickstart using native Keras]()
+### [Connecting to the HUAWEI Ascend 910 Administartive Console](HUAWEI_Ascend_910-NPU_Administrative_Console.md)
